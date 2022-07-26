@@ -3,37 +3,27 @@ const container = document.querySelector(".buttons");
 const buttonsArray = [
     {
         message: "apple",
-        emoji: "🍏",
-        timer: 0
+        emoji: "🍏"
     },
     {
         message: "pineapple",
-        emoji: "🍍",
-        timer: 0
+        emoji: "🍍"
     },
-
     {
         message: "kiwi",
-        emoji: "🥝",
-        timer: 0
+        emoji: "🥝"
     },
-
     {
         message: "avokado",
-        emoji: "🥑",
-        timer: 0
-
+        emoji: "🥑"
     },
-
     {
         message: "cherry",
-        emoji: "🍒",
-        timer: 0
+        emoji: "🍒"
     },
     {
         message: "strawberry",
-        emoji: "🍓",
-        timer: 0
+        emoji: "🍓"
     }
 ];
 
