@@ -112,8 +112,12 @@ class Button {
 }
 
 
+let buttonComponents = [];
+
 buttonsArray.forEach((element, i) => {
     const button = new Button(element.message, element.emoji, i);
+    buttonComponents.push(button);
+    
     button.render(container);
 });
 
